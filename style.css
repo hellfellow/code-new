@@ -1,0 +1,171 @@
+body{
+	margin:0;
+	padding:0;
+	font-size:18px;
+	font-family: BrandonGrotesqueWeb-Regular,Arial,sans-serif;
+	color:#666;
+}
+
+.up{
+	display:flex;
+	background-image:url('scotland-lighthouse.jpg');
+	height:600px;
+	background-size:cover;
+	margin:auto;
+	padding:0;
+	justify-content:center;
+	
+}
+.hi{
+	padding-top:150px;
+	font-size:40px;
+	color:white;
+}
+.navbar{
+	position:fixed;
+	width:30px;
+	height:100%;
+	background-color:rgba(238,238,238,0);
+	z-index:10;
+	transition:0.5s ease-in-out;
+	padding:25px 0;
+	display:flex;
+	justify-content:flex-start;
+	align-items:flex-start;
+	overflow:hidden;
+	
+	
+}
+.navbar:hover{
+	position:fixed;
+	width:100px;
+	height:100%;
+	background-color:rgba(238,238,238,0.2);
+	z-index:10;
+}
+.nav-logo{
+	display:flex;
+	
+	width:30px;
+	height:30px;
+	justify-content:space-between;
+	transform:rotate(90deg);
+	
+}
+.nav-logo div{
+	height:100%;
+	background-color:black;
+	width:5px;
+	opacity:1;
+}
+.direction{
+	margin-left:30px;
+	margin-top:10px;
+	color:black;
+}
+
+.empty{
+	display:flex;
+	height:300px;
+	background-color:white;
+	justify-content:center;
+}
+.text{
+	width:800px;
+	height:250px;
+	background-color:white;
+	position:relative;
+	bottom:50px;
+	border-radius:50px;
+	padding:20px;
+	box-shadow: 0.22222rem 0.22222rem 0.83333rem 0 hsla(0,0%,83.9%,.5);
+	padding:35px;
+}
+.grey{
+	display:flex;
+	flex:3;
+	justify-content:center;
+	align-items:center;
+	background-color:#f6f6f6;
+}
+
+.photo{
+	flex:4;
+	background-size:cover;
+}
+
+.middle{
+	display:flex;
+}
+.layer{
+	width:100%;
+	height:80%;
+	position:relative;
+	background-color:white;
+	
+	padding:35px;
+	}
+.button{
+	width:33%;
+	height:28%;
+	background-color:white;
+	padding-top:8px;
+	font-size:18px;
+	border-radius:35px;
+	text-align:center;
+	border:2px solid #7CDEDE;
+	vertical-align:middle;
+	margin:0 auto;
+}
+.empty:hover .left{
+	left:50px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.left{
+	left:0;
+	transition:0.5s;
+}
+.right{
+	right:50px;
+}
+.img-1{
+	background-image:url('history.jpg');
+}
+.img-2{
+	background-image:url('story.jpg');
+}
+
+.enter{
+display:flex;
+height:50px;
+transition:0.8s ease-in-out;	
+color:black;
+justify-content:center;
+}
+.enter div{
+	transition:0.5s;
+}
+.enter:hover div{
+	opacity:0;
+}
+.enter-width{
+display:flex;
+height:300px;	
+}
+/*animation: zoom 0.5s;
+	animation-fill-mode:forwards;
+
+
+@keyframes zoom{
+	 0%   { transform: scale(1);
+            opacity:0.7;	 }
+
+  100% { transform: scale(1.1);
+          opacity:1;  }
+
+
+}
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
